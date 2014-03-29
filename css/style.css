@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Metal+Mania);
+
+body {
+	background: url(background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#leaderboard {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(0, 0, 0, 0.8);
+	border: 6px solid white;
+	border-radius: 25px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Metal Mania', cursive;
+	font-size: 50px;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.name, .count, .mentions {
+	font-family: arial;
+	font-size: 16px;
+}
+
+.row {
+	border-bottom: 1px solid #7F7F7F;
+}
+
+.count {
+	float: right;
+	padding-right: 10%;
+	color: red;
+}
+
+.mentions {
+	color: white;
+}
+
+.name {
+	padding-left: 5%;
+	color: white;
+}
+
+
+
+
+
+

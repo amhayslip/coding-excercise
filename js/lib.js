@@ -1,6 +1,6 @@
 (function($) {
 
-  var Poller = function(options, callback) {
+  window.Poller = function(options, callback) {
     var defaults = {
       frequency: 60,
       limit: 10
@@ -71,3 +71,30 @@
   }
 
 }(jQuery));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
